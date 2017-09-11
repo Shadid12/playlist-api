@@ -7,6 +7,7 @@ app.use( (req, res, next) => {
   next();
 })
 
+// get all the rooms
 app.get('/rooms', (req, res) => {
 	var room = 
 	[
